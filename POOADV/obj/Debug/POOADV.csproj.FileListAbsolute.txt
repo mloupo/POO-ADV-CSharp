@@ -1,0 +1,24 @@
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\bin\Debug\POOADV.exe.config
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\bin\Debug\POOADV.exe
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\bin\Debug\POOADV.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\obj\Debug\POOADV.csproj.AssemblyReference.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\obj\Debug\POOADV.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\obj\Debug\POOADV.FFigura.resources
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\obj\Debug\POOADV.frmAllFigures.resources
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\obj\Debug\POOADV.Properties.Resources.resources
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\obj\Debug\POOADV.csproj.GenerateResource.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\obj\Debug\POOADV.csproj.CoreCompileInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\obj\Debug\POOADV.exe
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\EDI POOADV\POOADV\POOADV\obj\Debug\POOADV.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\bin\Debug\POOADV.exe.config
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\bin\Debug\POOADV.exe
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\bin\Debug\POOADV.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\obj\Debug\POOADV.csproj.AssemblyReference.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\obj\Debug\POOADV.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\obj\Debug\POOADV.FFigura.resources
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\obj\Debug\POOADV.frmAllFigures.resources
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\obj\Debug\POOADV.Properties.Resources.resources
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\obj\Debug\POOADV.csproj.GenerateResource.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\obj\Debug\POOADV.csproj.CoreCompileInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\obj\Debug\POOADV.exe
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\POOADV\POOADV\obj\Debug\POOADV.pdb
