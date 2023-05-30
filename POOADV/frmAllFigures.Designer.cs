@@ -63,7 +63,7 @@
             this.listViewAllFigures.Size = new System.Drawing.Size(765, 259);
             this.listViewAllFigures.TabIndex = 3;
             this.listViewAllFigures.UseCompatibleStateImageBehavior = false;
-            this.listViewAllFigures.View = System.Windows.Forms.View.Details;
+            /* this.listViewAllFigures.View = System.Windows.Forms.View.Details; //No me Muestra los items con esto descomentado */
             // 
             // fFiguraBindingSource
             // 

@@ -9,7 +9,7 @@ namespace POOADV
     public partial class FFigura : Form
     {
         List<IFiguraGeometrica> ListaFiguras = new List<IFiguraGeometrica>();
-        
+
         public FFigura()
         {
             InitializeComponent();
@@ -78,7 +78,7 @@ namespace POOADV
             {
                 case "Circulo":
                     IFiguraGeometrica circulo = create_circle();
-                    Console.WriteLine(circulo.ToString());
+                    Console.WriteLine("Creaste un " + circulo.ToString());
                     show_perimeter_and_surface(circulo);
                     add_figure(circulo);
                     break;
@@ -86,7 +86,7 @@ namespace POOADV
                 case "Triangulo":
 
                     IFiguraGeometrica triangulo = create_triangle();
-                    Console.WriteLine(triangulo.ToString());
+                    Console.WriteLine("Creaste un " + triangulo.ToString());
                     show_perimeter_and_surface(triangulo);
                     add_figure(triangulo);
                     break;
@@ -94,11 +94,14 @@ namespace POOADV
                 case "Cuadrado":
 
                     IFiguraGeometrica cuadrado = create_square();
-                    Console.WriteLine(cuadrado.ToString());
+                    Console.WriteLine("Creaste un " + cuadrado.ToString());
                     show_perimeter_and_surface(cuadrado);
                     add_figure(cuadrado);
                     break;
             }
+            bindingSource1.DataSource = ListaFiguras;
+            ShowAllFigures();
+
         }
 
         private void IsValid(KeyPressEventArgs e)
@@ -139,7 +142,6 @@ namespace POOADV
                 );
         }
 
-
         private Cuadrado create_square()
         {
             return new Cuadrado(
@@ -162,12 +164,10 @@ namespace POOADV
         {
             btnSalir.Text = "Seguro?";
         }
-
         private void BtnSalir_MouseLeave(object sender, EventArgs e)
         {
             btnSalir.Text = "Salir";
         }
-
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             Close();
@@ -175,26 +175,32 @@ namespace POOADV
 
         private void ShowAllFigures()
         {
+            
+            bindingSource1.ResetBindings(false);
+            DgvFigures.DataSource = bindingSource1;
+
+            Console.WriteLine("Estamos en el Formulario de Creacion");
+            listView1.Items.Clear();
             foreach (IFiguraGeometrica figura in ListaFiguras)
             {
                 Console.WriteLine(figura);
                 listView1.Items.Add(figura.ToString());
+                //DgvFigures.Rows.Add(figura);
             }
+            
+            
         }
 
-        public List<IFiguraGeometrica> getList()
+        public List<IFiguraGeometrica> GetList()
         {
             return ListaFiguras;
         }
-     
+
 
         private void MostrarTodos_Click(object sender, EventArgs e)
         {
-            ShowAllFigures();
-
-            frmAllFigures frm = new frmAllFigures(this,ListaFiguras);
-            this.Hide(); //Esta comentado porque no se como ejecutar la instruccion .show()
-            //perteneciente a este formulario desde el segundo formulario;
+            frmAllFigures frm = new frmAllFigures(this, ListaFiguras);
+            this.Hide(); 
             frm.Show();
         }
 

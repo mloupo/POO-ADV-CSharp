@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.cmbFigure = new System.Windows.Forms.ComboBox();
             this.lblSelectedFigure = new System.Windows.Forms.Label();
             this.txtRadio = new System.Windows.Forms.TextBox();
@@ -45,6 +46,11 @@
             this.lblResultPerim = new System.Windows.Forms.Label();
             this.MostrarTodos = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.Figuras = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.DgvFigures = new System.Windows.Forms.DataGridView();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.DgvFigures)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbFigure
@@ -214,9 +220,19 @@
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(448, 25);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(547, 257);
+            this.listView1.Size = new System.Drawing.Size(547, 139);
             this.listView1.TabIndex = 19;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // DgvFigures
+            // 
+            this.DgvFigures.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvFigures.Location = new System.Drawing.Point(448, 169);
+            this.DgvFigures.Name = "DgvFigures";
+            this.DgvFigures.RowHeadersWidth = 51;
+            this.DgvFigures.RowTemplate.Height = 24;
+            this.DgvFigures.Size = new System.Drawing.Size(547, 150);
+            this.DgvFigures.TabIndex = 20;
             // 
             // FFigura
             // 
@@ -224,6 +240,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1034, 334);
+            this.Controls.Add(this.DgvFigures);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.MostrarTodos);
             this.Controls.Add(this.lblResultPerim);
@@ -246,6 +263,8 @@
             this.Name = "FFigura";
             this.Text = "Ventana Principal";
             this.Load += new System.EventHandler(this.FFigura_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.DgvFigures)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -269,6 +288,9 @@
         private System.Windows.Forms.Label lblResultPerim;
         private System.Windows.Forms.Button MostrarTodos;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader Figuras;
+        private System.Windows.Forms.DataGridView DgvFigures;
+        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }
 

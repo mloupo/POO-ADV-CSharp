@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOADV", "POOADV\POOADV.csproj", "{CEC7A1DC-D922-4879-98E0-544A4B036120}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOAdvFiguras", "POOADV\POOAdvFiguras.csproj", "{CEC7A1DC-D922-4879-98E0-544A4B036120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
